@@ -1,0 +1,59 @@
+/* body {
+    background-color: midnightblue;
+} */
+
+.container{
+    position: relative;
+}
+
+#titulo{
+    display: block;
+}
+
+.left-bar{
+    position: absolute;
+    left: 0;
+    width: 25%;
+    background-color: midnightblue;
+    color: white;
+}
+
+.left-title {
+    background-color: darkturquoise;
+    width: 25%;
+}
+
+.content{
+    display: inline-block;
+    background-color: white;
+    width: 75%;
+    margin-left: 25%;
+    /* right: -1; */
+}
+
+.right-title {
+    background-color: darkturquoise;
+    color: white;
+    width: 75%;
+    margin-left: 15%;
+    left: 0;
+}
+
+.job {
+    width: 75%;
+    margin-left: 15%;
+}
+
+.job-content {
+    display: inline-block;
+}
+
+.date {
+    top: 0;
+    display: inline-block;
+}
+
+img {
+    align-self: auto;    
+    max-width: 150px;
+}
